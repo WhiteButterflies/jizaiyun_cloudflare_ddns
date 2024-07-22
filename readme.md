@@ -18,8 +18,6 @@
 
 在39行中，protected_url修改为你购买的鸡仔云产品的具体页面（需要预先登录）
 
-3、本脚本仅对ipv4 DDNS做了设置，ipv6和循环执行请自行修改代码。
-
-
+3、本脚本仅对ipv4 DDNS做了设置，ipv6和如何定期循环执行请自行修改代码。
 
 4、python3.11，requirements.txt，运行cf-ddns.py即可。
