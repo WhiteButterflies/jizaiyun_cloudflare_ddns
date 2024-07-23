@@ -1,4 +1,7 @@
 # 基于cf-ddns的鸡仔云ipv4动态更新脚本
+0、原理
+
+爬虫获取DDNS IP（因此依赖于面板的网页元素位置），然后使用现有的CF DDNS脚本。
 
 1、cf-ddns.conf
 
