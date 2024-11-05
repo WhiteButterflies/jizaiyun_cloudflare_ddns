@@ -7,20 +7,10 @@
 # run `crontab -e` and append this line to it:
 # 0 */5 * * * * /PATH_TO_FILE/cf-ddns.py >/dev/null 2>&1
 from login import get_jizai_ddns_ip
-
-try:
-    # For Python 3.0 and later
-    from urllib.request import urlopen
-    from urllib.request import Request
-    from urllib.error import URLError
-    from urllib.error import HTTPError
-    # import urllib.parse
-except ImportError:
-    # Fall back to Python 2's urllib2
-    from urllib2 import urlopen
-    from urllib2 import Request
-    from urllib2 import HTTPError
-    from urllib2 import URLError
+from urllib.request import urlopen
+from urllib.request import Request
+from urllib.error import URLError
+from urllib.error import HTTPError
 
 import json
 
